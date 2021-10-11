@@ -1,0 +1,60 @@
+body {
+    background-image: url(../pic/camp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.class1 {
+    width: 130px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 450px;
+    margin-right: 200px;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    font-weight: bold;
+    
+}
+.class2 {
+    font-weight: bold;
+    width: 130px;
+    display: flex;
+    margin: 0 auto;
+    margin-right: 200px;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    
+}
+.input-class1{
+    border: none;
+    border-bottom: 2px solid #EA4B37;
+
+}
+.input-class2{
+    border: none;
+    border-bottom: 2px solid #EA4B37;
+
+}
+
+.input-class1:focus {
+    outline: none;
+}
+.input-class2:focus {
+    outline: none;
+}
+
+.button-class {
+    margin-bottom: 50px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-left: 1050px;
+    width: 100px;
+    height: 25px;
+    background-color: #EA4B37;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
